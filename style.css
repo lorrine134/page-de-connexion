@@ -1,0 +1,27 @@
+body{background-color: blue;}
+#formulaire{
+text-align: center;
+font-size: 30px;
+}
+.container{
+   margin-top: 10%;
+    
+}
+.container{  align-content: center;
+    margin: 0 auto;
+    width:250px;
+    height: 300px;
+    padding: 50px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    background-color:#ce0033; ;
+
+}
+form{align-content: center;
+    margin: auto;
+    width: 150px;
+    height: 200px;
+  padding: 50px;
+  background-color: blue;
+   }
+

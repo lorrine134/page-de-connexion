@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <script src="script.js"></script> 
+    <title>Document</title>
+</head>
+<body>
+    <div id="formulaire"> formulaire d'inscription  </div>
+<br>
+<br>
+
+    <div class="container">
+        <form>
+            <div>
+                <label for="Prénom"><b>Prénom</b></label></span> <br> <br>
+            <input type="text" name="Prénom" id="Prénom">
+            </div>
+
+            <div>
+                <label for="Nom"><b>Nom</b></label></span> <br> <br>
+            <input type="text" name="Nom" id="Nom" required>
+            </div>
+
+            <div>
+                <label for="age"><b>age</b></label></span> <br> <br>
+            <input type="number" name="age" id="age" required>
+            </div>
+
+            <br>
+
+            <div class="bouton">
+                <button class="validé" type="submit" onclick="valider()"> valider  </button>
+                <button class="annulé" type="reset"> annuler </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
